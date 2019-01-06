@@ -1,3 +1,4 @@
+#Simple Linear Regression
 import pandas as ps
 import matplotlib.pyplot as mb
 from sklearn.linear_model import LinearRegression
