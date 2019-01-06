@@ -21,7 +21,7 @@ X = onehotencoder.fit_transform(X).toarray()
 
 training_x, test_x, traning_y, test_y = train_test_split(X, Y, test_size=0.3)
 
-print(X)
+
 reg = LinearRegression()
 reg.fit(training_x, traning_y)
 
